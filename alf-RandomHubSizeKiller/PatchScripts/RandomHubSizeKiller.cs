@@ -29,12 +29,12 @@ public class RandomHubSizeKiller : IPatcherMod
     private void CustomEntityClasses(ModuleDefinition module)
     {
         var method = module.GetType("WorldGenerationEngine.GenerationManager").Methods.First(d => d.Name == "GenerateTowns");
-
-        var numOp = method.Body.Instructions.First(d => d.OpCode == OpCodes.Ldc_I4).Next;
+        var first = method.Body.Instructions.First(d => d.OpCode == OpCodes.Stloc_0).Next;
+        var numOp = method.Body.Instructions.First(d => d.OpCode == OpCodes.Ldc_I4);
+        var last = numOp.Next;
         var il = method.Body.GetILProcessor();
-        var last = numOp.Next.Next;
   
-        il.Remove(last);
+		il.InsertBefore(last,il.Create(OpCodes.Nop));
 
     }
 }
