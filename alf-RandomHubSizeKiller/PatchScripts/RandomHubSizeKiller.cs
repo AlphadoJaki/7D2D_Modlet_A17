@@ -30,11 +30,14 @@ public class RandomHubSizeKiller : IPatcherMod
     {
         var method = module.GetType("WorldGenerationEngine.GenerationManager").Methods.First(d => d.Name == "GenerateTowns");
         var first = method.Body.Instructions.First(d => d.OpCode == OpCodes.Stloc_0).Next;
-        var numOp = method.Body.Instructions.First(d => d.OpCode == OpCodes.Ldc_I4);
+        var numOp = method.Body.Instructions.First(d => d.OpCode == OpCodes.Ldc_I4).Next;
         var last = numOp.Next;
         var il = method.Body.GetILProcessor();
   
-		il.InsertBefore(last,il.Create(OpCodes.Nop));
+        il.Remove(last);
+        il.Remove(numOp.Previous);
+        il.Remove(numOp.Previous);
+        il.Remove(numOp.Previous);
 
     }
 }
