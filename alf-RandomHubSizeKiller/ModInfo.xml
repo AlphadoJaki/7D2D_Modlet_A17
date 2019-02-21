@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="Alf Random Hub Size Killer" />
+		<Description value="Remove seed based random hub size" />
+		<Author value="Alphado-Jaki" />
+		<Version value="1.0" />
+	</ModInfo>
+</xml>

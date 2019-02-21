@@ -1,0 +1,11 @@
+<mod>
+	<info>
+		<author>Alphado-Jaki</author>
+		<name>Alf Random Hub Size Killer</name>
+		<description>Remove seed based random hub size</description>
+		<mod_version>1.0</mod_version>
+		<game_version>17.1</game_version>
+		<launcher_version>0.7.3</launcher_version>
+		<guid>alf-rng-static-hub-size</guid>
+	</info>
+</mod>
