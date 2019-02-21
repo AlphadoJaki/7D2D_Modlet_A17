@@ -1,0 +1,376 @@
+<configs>
+<set xpath="/*/prefab_rules">
+<prefab_rule name="townGroup">
+	<prefab rule="commercial" />
+	<prefab rule="downtown" />
+	<prefab rule="industrial" />
+	<prefab rule="residentialNew" />
+	<prefab rule="residentialOld" />
+	<prefab rule="multiple" prop="0.1" />
+	<prefab rule="multipleLandmark" prop="4" />
+</prefab_rule>
+
+<prefab_rule name="commercial">
+	<prefab name="oldwest_sm_shop_01"		prob="0.01" max_count="3"/>
+	<prefab name="oldwest_sm_shop_02"		prob="0.01" max_count="3"/>
+	<prefab name="oldwest_sm_shop_03"		prob="0.01" max_count="3"/>
+	<prefab name="oldwest_jail"				prob="0.01" max_count="3"/>
+	<prefab name="oldwest_md_shop_01"		prob="0.01" max_count="3"/>
+	<prefab name="oldwest_md_shop_03"		prob="0.01" max_count="3"/>
+
+	<prefab name="ranger_station1"			prob="0.05" max_count="2"/>
+	<prefab name="oldwest_church"			prob="0.05" max_count="2"/>
+	<prefab name="oldwest_graveyard"		prob="0.05" max_count="2"/>
+	<prefab name="oldwest_hotel_01"			prob="0.05" max_count="2"/>
+	<prefab name="oldwest_hotel_02"			prob="0.05" max_count="2"/>
+	<prefab name="oldwest_md_shop_02"		prob="0.05" max_count="2"/>
+	<prefab name="oldwest_md_shop_04"		prob="0.05" max_count="2"/>
+
+	<prefab name="store_hardware_sm_01"		prob="0.20" max_count="2"/>
+	<prefab name="store_book_sm_01"			prob="0.20" max_count="2"/>
+	<prefab name="store_grocery_sm_01"		prob="0.20" max_count="2"/>
+	<prefab name="store_gun_sm_01"			prob="0.20" max_count="2"/>
+	<prefab name="mp_waste_sewer_hole_1"	prob="0.20" max_count="2"/>
+	<prefab name="snowy_ski_lodge"			prob="0.20" max_count="1"/>
+
+	<prefab name="gas_station7"				prob="1.00" max_count="1"/>
+	<prefab name="gas_station1"				prob="1.00" max_count="1"/>
+	<prefab name="gas_station2"				prob="1.00" max_count="1"/>
+	<prefab name="gas_station3"				prob="1.00" max_count="1"/>
+	<prefab name="gas_station4"				prob="1.00" max_count="1"/>
+	<prefab name="store_book_lg_01"			prob="1.00" max_count="1"/>
+	<prefab name="store_pharmacy_sm_01"		prob="1.00" max_count="1"/>
+	<prefab name="carlot_01"				prob="1.00" max_count="1"/>
+	<prefab name="carlot_02"				prob="1.00" max_count="1"/>
+	<prefab name="skate_park_01"			prob="1.00" max_count="1"/>
+	<prefab name="store_bank_lg_01"			prob="1.00" max_count="1"/>
+	<prefab name="store_grocery_lg_01"		prob="1.00" max_count="1"/>
+	<prefab name="store_gun_lg_01"			prob="1.00" max_count="1"/>
+
+	<prefab name="gas_station8"				prob="10.0" max_count="2"/>
+	<prefab name="store_hardware_lg_01"		prob="10.0" max_count="2"/>
+	<prefab name="store_autoparts_01"		prob="10.0" max_count="2"/>
+
+	<prefab name="gas_station5"				prob="100." max_count="1"/>
+	<prefab name="gas_station9"				prob="100." max_count="1"/>
+</prefab_rule>
+
+<prefab_rule name="downtown">
+	<prefab name="bus_stop_01"			prob="0.05" max_count="3"/>
+
+	<prefab name="post_office_sm_01"	prob="0.20" max_count="1"/>
+
+	<prefab name="post_office_med_01"	prob="1.00" max_count="1"/>
+	<prefab name="police_station1"		prob="1.00" max_count="1"/>
+
+	<prefab name="prison_01"			prob="10.0" max_count="2"/>
+	<prefab name="courthouse_med_01"	prob="10.0" max_count="1"/>
+	<prefab name="skyscraper_04"		prob="10.0" max_count="2"/>
+	<prefab name="skyscraper_02"		prob="10.0" max_count="2"/>
+	<prefab name="courthouse_med_02"	prob="10.0" max_count="1"/>
+
+	<prefab name="skyscraper_03"		prob="100." max_count="1"/>
+	<prefab name="skyscraper_01"		prob="100." max_count="1"/>
+</prefab_rule>
+
+<prefab_rule name="industrial">
+	<prefab name="water_tower_01"			prob="0.01" max_count="4"/>
+	<prefab name="oldwest_watertower"		prob="0.01" max_count="4"/>
+	<prefab name="water_tower_02"			prob="0.01" max_count="4"/>
+
+	<prefab name="waste_rubble_highway_01"	prob="0.05" max_count="2"/>
+	<prefab name="barn_01"					prob="0.05" max_count="3"/>
+	<prefab name="vacant_lot_01"			prob="0.05" max_count="1"/>
+	<prefab name="vacant_lot_02"			prob="0.05" max_count="1"/>
+	<prefab name="vacant_lot_03"			prob="0.05" max_count="1"/>
+	<prefab name="vacant_lot_04"			prob="0.05" max_count="1"/>
+	<prefab name="oldwest_stables"			prob="0.05" max_count="2"/>
+	<prefab name="utility_celltower_01"		prob="0.05" max_count="2"/>
+
+	<prefab name="vacant_lot_05"			prob="0.20" max_count="1"/>
+	<prefab name="utility_celltower_02"		prob="0.20" max_count="2"/>
+
+	<prefab name="army_barracks_01"			prob="1.00" max_count="1"/>
+	<prefab name="factory_lg_01"			prob="1.00" max_count="1"/>
+	<prefab name="installation_red_mesa"	prob="1.00" max_count="1"/>
+	<prefab name="utility_electric_co_01"	prob="1.00" max_count="1"/>
+	<prefab name="utility_waterworks_01"	prob="1.00" max_count="1"/>
+
+	<prefab name="warehouse_01"				prob="10.0" max_count="2"/>
+	<prefab name="barn_02"					prob="10.0" max_count="2"/>
+	
+	<prefab name="army_camp_01"				prob="100." max_count="1"/>
+	<prefab name="army_camp_02"				prob="100." max_count="1"/>
+	<prefab name="army_camp_03"				prob="100." max_count="1"/>
+	<prefab name="barn_03"					prob="100." max_count="2"/>
+	<prefab name="junkyard_med_01"			prob="100." max_count="2"/>
+	<prefab name="utility_refinery_01"		prob="100." max_count="1"/>
+	<prefab name="junkyard_lg_01"			prob="100." max_count="1"/>
+
+	<prefab name="sawmill_01_snow"			prob="1000" max_count="1"/>
+	<prefab name="factory_lg_02"			prob="1000" max_count="1"/>
+</prefab_rule>
+
+<prefab_rule name="residentialNew">
+	<prefab name="garage_05"				prob="0.20" max_count="4"/>
+	<prefab name="garage_06"				prob="0.20" max_count="4"/>
+	<prefab name="garage_07"				prob="0.20" max_count="4"/>
+	<prefab name="house_new_01"				prob="0.20" max_count="4"/>
+	<prefab name="house_new_03"				prob="0.20" max_count="4"/>
+
+	<prefab name="house_construction_01"	prob="1.00" max_count="3"/>
+	<prefab name="house_new_mansion_02"		prob="1.00" max_count="3"/>
+	<prefab name="house_new_mansion_03"		prob="1.00" max_count="3"/>
+	<prefab name="house_old_ranch_04"		prob="1.00" max_count="3"/>
+
+	<prefab name="house_construction_02"	prob="10.0" max_count="2"/>
+	<prefab name="house_new_02"				prob="10.0" max_count="2"/>
+	<prefab name="house_old_spanish_01"		prob="10.0" max_count="2"/>
+	<prefab name="house_old_bungalow_03"	prob="10.0" max_count="2"/>
+	<prefab name="house_new_06"				prob="10.0" max_count="2"/>
+	<prefab name="house_new_05"				prob="10.0" max_count="2"/>
+	<prefab name="house_old_ranch_03"		prob="10.0" max_count="2"/>
+	<prefab name="house_old_ranch_07"		prob="10.0" max_count="2"/>
+	<prefab name="house_new_mansion_01"		prob="10.0" max_count="2"/>
+
+	<prefab name="house_old_ranch_08"		prob="100." max_count="1"/>
+	<prefab name="house_new_04"				prob="100." max_count="1"/>
+	<prefab name="house_old_ranch_02"		prob="100." max_count="1"/>
+
+	<prefab name="football_stadium"			prob="1000" max_count="1"/>
+</prefab_rule>
+
+<prefab_rule name="residentialOld">
+	<prefab name="houseburnt5"				prob="0.01" max_count="4"/>
+
+	<prefab name="houseburnt1"				prob="0.05" max_count="3"/>
+	<prefab name="houseburnt3"				prob="0.05" max_count="2"/>
+	<prefab name="houseburnt3b"				prob="0.05" max_count="1"/>
+	<prefab name="houseburnt2"				prob="0.05" max_count="3"/>
+	<prefab name="abandoned_house_03"		prob="0.05" max_count="3"/>
+	<prefab name="abandoned_house_02"		prob="0.05" max_count="3"/>
+	<prefab name="abandoned_house_04"		prob="0.05" max_count="3"/>
+	<prefab name="abandoned_house_05"		prob="0.05" max_count="3"/>
+	<prefab name="abandoned_house_06"		prob="0.05" max_count="3"/>
+	<prefab name="cabin_12"					prob="0.05" max_count="3"/>
+	<prefab name="trailer_01"				prob="0.05" max_count="3"/>
+	<prefab name="trailer_02"				prob="0.05" max_count="3"/>
+	<prefab name="trailer_03"				prob="0.05" max_count="3"/>
+	<prefab name="trailer_04"				prob="0.05" max_count="3"/>
+
+	<prefab name="garage_01"				prob="0.20" max_count="3"/>
+	<prefab name="garage_02"				prob="0.20" max_count="3"/>
+	<prefab name="garage_03"				prob="0.20" max_count="3"/>
+	<prefab name="garage_04"				prob="0.20" max_count="3"/>
+	<prefab name="house_old_bungalow_12"	prob="0.20" max_count="2"/>
+	<prefab name="abandoned_house_08"		prob="0.20" max_count="2"/>
+	<prefab name="bombshelter_lg_01"		prob="0.20" max_count="1"/>
+	<prefab name="bombshelter_md_01"		prob="0.20" max_count="1"/>
+	<prefab name="cabin_01"					prob="0.20" max_count="2"/>
+	<prefab name="cabin_02"					prob="0.20" max_count="2"/>
+	<prefab name="cabin_04"					prob="0.20" max_count="2"/>
+	<prefab name="cabin_09"					prob="0.20" max_count="2"/>
+	<prefab name="cabin_13"					prob="0.20" max_count="2"/>
+	<prefab name="house_old_bungalow_01"	prob="0.20" max_count="2"/>
+	<prefab name="house_old_bungalow_02"	prob="0.20" max_count="2"/>
+	<prefab name="house_old_bungalow_04"	prob="0.20" max_count="2"/>
+	<prefab name="house_old_bungalow_05"	prob="0.20" max_count="2"/>
+	<prefab name="house_old_bungalow_09"	prob="0.20" max_count="2"/>
+	<prefab name="house_old_bungalow_10"	prob="0.20" max_count="2"/>
+	<prefab name="house_old_mansard_04"		prob="0.20" max_count="2"/>
+	<prefab name="house_old_mansard_05"		prob="0.20" max_count="2"/>
+	<prefab name="house_old_modular_01"		prob="0.20" max_count="2"/>
+	<prefab name="house_old_modular_02"		prob="0.20" max_count="2"/>
+	<prefab name="house_old_modular_03"		prob="0.20" max_count="2"/>
+	<prefab name="house_old_modular_04"		prob="0.20" max_count="2"/>
+	<prefab name="house_old_modular_05"		prob="0.20" max_count="2"/>
+	<prefab name="house_old_modular_06"		prob="0.20" max_count="2"/>
+	<prefab name="house_old_modular_07"		prob="0.20" max_count="2"/>
+	<prefab name="house_old_modular_08"		prob="0.20" max_count="2"/>
+	<prefab name="house_old_pyramid_03"		prob="0.20" max_count="2"/>
+	<prefab name="house_old_tudor_04"		prob="0.20" max_count="2"/>
+	<prefab name="house_old_tudor_05"		prob="0.20" max_count="2"/>
+	<prefab name="house_old_victorian_08"	prob="0.20" max_count="2"/>
+	<prefab name="house_old_victorian_12"	prob="0.20" max_count="2"/>
+	<prefab name="house_old_victorian_13"	prob="0.20" max_count="2"/>
+	<prefab name="abandoned_house_07"		prob="0.20" max_count="2"/>
+
+	<prefab name="cabin_03"					prob="1.00" max_count="2"/>
+	<prefab name="cabin_06"					prob="1.00" max_count="2"/>
+	<prefab name="cabin_05"					prob="1.00" max_count="2"/>
+	<prefab name="cabin_11"					prob="1.00" max_count="2"/>
+	<prefab name="house_old_bungalow_11"	prob="1.00" max_count="1"/>
+	<prefab name="house_old_gambrel_02"		prob="1.00" max_count="1"/>
+	<prefab name="house_old_pyramid_05"		prob="1.00" max_count="1"/>
+	<prefab name="house_old_ranch_05"		prob="1.00" max_count="1"/>
+	<prefab name="house_old_tudor_02"		prob="1.00" max_count="1"/>
+	<prefab name="house_old_victorian_10"	prob="1.00" max_count="1"/>
+	<prefab name="house_old_ranch_09"		prob="1.00" max_count="1"/>
+	<prefab name="cabin_07"					prob="1.00" max_count="1"/>
+	<prefab name="cabin_08"					prob="1.00" max_count="1"/>
+	<prefab name="cabin_14"					prob="1.00" max_count="1"/>
+	<prefab name="house_old_ranch_01"		prob="1.00" max_count="1"/>
+	<prefab name="house_old_ranch_10"		prob="1.00" max_count="1"/>
+	<prefab name="trailer_park_01"			prob="1.00" max_count="2"/>
+
+	<prefab name="cabin_10"					prob="10.0" max_count="2"/>
+	<prefab name="house_old_bungalow_06"	prob="10.0" max_count="1"/>
+	<prefab name="house_old_bungalow_07"	prob="10.0" max_count="1"/>
+	<prefab name="house_old_bungalow_08"	prob="10.0" max_count="1"/>
+	<prefab name="house_old_victorian_06"	prob="10.0" max_count="1"/>
+	<prefab name="house_old_victorian_11"	prob="10.0" max_count="1"/>
+	<prefab name="house_old_gambrel_01"		prob="10.0" max_count="1"/>
+	<prefab name="house_old_mansard_03"		prob="10.0" max_count="1"/>
+	<prefab name="house_old_pyramid_01"		prob="10.0" max_count="1"/>
+	<prefab name="house_old_pyramid_02"		prob="10.0" max_count="1"/>
+	<prefab name="house_old_pyramid_04"		prob="10.0" max_count="1"/>
+	<prefab name="house_old_ranch_06"		prob="10.0" max_count="1"/>
+	<prefab name="house_old_tudor_03"		prob="10.0" max_count="1"/>
+	<prefab name="house_old_tudor_06"		prob="10.0" max_count="1"/>
+	<prefab name="house_old_victorian_02"	prob="10.0" max_count="1"/>
+	<prefab name="house_old_victorian_03"	prob="10.0" max_count="1"/>
+	<prefab name="house_old_victorian_04"	prob="10.0" max_count="1"/>
+	<prefab name="house_old_victorian_05"	prob="10.0" max_count="1"/>
+	<prefab name="house_old_victorian_07"	prob="10.0" max_count="1"/>
+	<prefab name="cabin_15"					prob="10.0" max_count="2"/>
+	<prefab name="house_old_mansard_01"		prob="10.0" max_count="1"/>
+	<prefab name="house_old_mansard_02"		prob="10.0" max_count="1"/>
+	<prefab name="house_old_victorian_09"	prob="10.0" max_count="1"/>
+	<prefab name="house_old_mansard_06"		prob="10.0" max_count="1"/>
+	<prefab name="house_old_tudor_01"		prob="10.0" max_count="2"/>
+
+	<prefab name="abandoned_house_01"		prob="100." max_count="2"/>
+	<prefab name="house_old_gambrel_03"		prob="100." max_count="1"/>
+	<prefab name="house_old_victorian_01"	prob="100." max_count="1"/>
+</prefab_rule>
+
+<prefab_rule name="multiple">
+	<prefab name="waste_rubble_bldg_01"			prob="0.10" max_count="3"/>
+	<prefab name="blueberryfield_sm"			prob="0.10" max_count="2"/>
+	<prefab name="cornfield_sm"					prob="0.10" max_count="2"/>
+	<prefab name="potatofield_sm"				prob="0.10" max_count="2"/>
+	<prefab name="waste_rubble_bldg_02"			prob="0.10" max_count="3"/>
+	<prefab name="waste_rubble_bldg_03"			prob="0.10" max_count="3"/>
+	<prefab name="waste_rubble_bldg_09"			prob="0.10" max_count="3"/>
+
+	<prefab name="waste_rubble_bldg_04"			prob="0.20" max_count="3"/>
+	<prefab name="mp_waste_bldg_03_red"			prob="0.20" max_count="3"/>
+	<prefab name="mp_waste_bldg_03_tan"			prob="0.20" max_count="3"/>
+	<prefab name="mp_waste_bldg_03_white"		prob="0.20" max_count="3"/>
+	<prefab name="mp_waste_bldg_05_grey"		prob="0.20" max_count="3"/>
+	<prefab name="waste_rubble_bldg_07"			prob="0.20" max_count="3"/>
+	<prefab name="water_tower_03"				prob="0.20" max_count="4"/>
+	<prefab name="bar_sm_01"					prob="0.20" max_count="2"/>
+	<prefab name="cornfield_med"				prob="0.20" max_count="2"/>
+	<prefab name="mp_waste_bldg_01_red"			prob="0.20" max_count="3"/>
+	<prefab name="mp_waste_bldg_01_tan"			prob="0.20" max_count="3"/>
+	<prefab name="mp_waste_bldg_01_white"		prob="0.20" max_count="3"/>
+
+	<prefab name="mp_waste_bldg_04_grey"		prob="0.50" max_count="3"/>
+	<prefab name="mp_waste_bldg_04_red"			prob="0.50" max_count="3"/>
+	<prefab name="mp_waste_bldg_04_tan"			prob="0.50" max_count="3"/>
+	<prefab name="mp_waste_bldg_04_white"		prob="0.50" max_count="3"/>
+	<prefab name="mp_waste_bldg_06_grey"		prob="0.50" max_count="3"/>
+	<prefab name="business_old_01"				prob="0.50" max_count="3"/>
+	<prefab name="store_salon"					prob="0.50" max_count="2"/>
+	<prefab name="business_old_05"				prob="0.50" max_count="3"/>
+	<prefab name="diner_01"						prob="0.50" max_count="2"/>
+	<prefab name="mp_waste_bldg_02_red"			prob="0.50" max_count="3"/>
+	<prefab name="mp_waste_bldg_02_tan"			prob="0.50" max_count="3"/>
+	<prefab name="business_old_04"				prob="0.50" max_count="3"/>
+	<prefab name="business_old_08"				prob="0.50" max_count="3"/>
+	<prefab name="mp_waste_bldg_governer_08"	prob="0.50" max_count="2"/>
+
+	<prefab name="business_strip_old_04"		prob="1.00" max_count="2"/>
+	<prefab name="parking_lot_01"				prob="1.00" max_count="2"/>
+	<prefab name="parking_lot_02"				prob="1.00" max_count="2"/>
+	<prefab name="parking_lot_03"				prob="1.00" max_count="2"/>
+	<prefab name="settlement_01"				prob="1.00" max_count="2"/>
+	<prefab name="waste_rubble_bldg_05"			prob="1.00" max_count="2"/>
+	<prefab name="waste_rubble_bldg_06"			prob="1.00" max_count="2"/>
+	<prefab name="waste_rubble_bldg_08"			prob="1.00" max_count="2"/>
+	<prefab name="fire_station_02"				prob="1.00" max_count="4"/>
+	<prefab name="funeral_home_01"				prob="1.00" max_count="4"/>
+	<prefab name="gas_station6"					prob="1.00" max_count="2"/>
+	<prefab name="store_pawn_01"				prob="1.00" max_count="2"/>
+	<prefab name="theater_01"					prob="1.00" max_count="1"/>
+	<prefab name="apartment_adobe_red_5_flr"	prob="1.00" max_count="3"/>
+	<prefab name="bar_stripclub_01"				prob="1.00" max_count="2"/>
+	<prefab name="bar_theater_01"				prob="1.00" max_count="1"/>
+	<prefab name="business_strip_old_01"		prob="1.00" max_count="2"/>
+	<prefab name="cemetery_01"					prob="1.00" max_count="2"/>
+	<prefab name="cemetery_02"					prob="1.00" max_count="2"/>
+	<prefab name="church_01"					prob="1.00" max_count="4"/>
+	<prefab name="diner_02"						prob="1.00" max_count="2"/>
+	<prefab name="diner_03"						prob="1.00" max_count="2"/>
+	<prefab name="fastfood_01"					prob="1.00" max_count="2"/>
+	<prefab name="fire_station_01"				prob="1.00" max_count="1"/>
+	<prefab name="hotel_ostrich"				prob="1.00" max_count="2"/>
+	<prefab name="hotel_roadside_01"			prob="1.00" max_count="2"/>
+	<prefab name="hotel_roadside_02"			prob="1.00" max_count="2"/>
+	<prefab name="parking_garage_01"			prob="1.00" max_count="2"/>
+</prefab_rule>
+
+<prefab_rule name="multipleLandmark">
+	<prefab name="business_old_02"				prob="10.0" max_count="1"/>
+	<prefab name="business_old_07"				prob="10.0" max_count="1"/>
+	<prefab name="business_old_03"				prob="10.0" max_count="1"/>
+	<prefab name="church_sm_01"					prob="10.0" max_count="4"/>
+	<prefab name="store_laundry_01"				prob="10.0" max_count="1"/>
+	<prefab name="business_old_06"				prob="10.0" max_count="1"/>
+	<prefab name="fastfood_04"					prob="10.0" max_count="1"/>
+	<prefab name="school_daycare_01"			prob="10.0" max_count="3"/>
+	<prefab name="fastfood_02"					prob="10.0" max_count="1"/>
+	<prefab name="fastfood_03"					prob="10.0" max_count="1"/>
+	<prefab name="business_strip_old_02"		prob="10.0" max_count="1"/>
+	<prefab name="church_graveyard1"			prob="10.0" max_count="1"/>
+	<prefab name="business_strip_old_03"		prob="10.0" max_count="1"/>
+
+	<prefab name="school_k6_01"					prob="100." max_count="3"/>
+	<prefab name="cornfield_lg"					prob="100." max_count="1"/>
+	<prefab name="apartment_brick_6_flr"		prob="100." max_count="3"/>
+	<prefab name="hotel_new_01"					prob="100." max_count="1"/>
+	<prefab name="school_01"					prob="100." max_count="3"/>
+	<prefab name="hospital_01"					prob="100." max_count="1"/>
+</prefab_rule>
+
+<prefab_rule name="wildernessGroup">
+	<prefab name="settlement_trader_01" min_count="1" max_count="1" prob="8" />
+	<prefab name="cabin_01" />
+	<prefab name="settlement_trader_02" min_count="1" max_count="1" prob="8" />
+	<prefab name="cabin_02" />
+	<prefab name="settlement_trader_03" min_count="1" max_count="1" prob="8" />
+	<prefab name="cabin_03" />
+	<prefab name="settlement_trader_04" min_count="1" max_count="1" prob="8" />
+	<prefab name="cabin_04" />
+	<prefab name="settlement_trader_05" min_count="1" max_count="1" prob="8" />
+	<prefab name="cabin_05" />
+	<prefab name="cabin_06" />
+	<prefab name="cabin_07" />
+	<prefab name="cabin_08" />
+	<prefab name="cabin_09" />
+	<prefab name="cabin_10" />
+	<prefab name="cabin_08" />
+	<prefab name="cabin_12" />
+	<prefab name="cabin_13" />
+	<prefab name="cabin_14" />
+	<prefab name="cabin_15" />
+	<prefab name="ranger_station1" />
+	<prefab name="snowy_ski_lodge" />
+	<prefab name="survivor_site_01" />
+	<prefab name="survivor_site_02" />
+	<prefab name="survivor_site_03" />
+	<prefab name="survivor_site_04" />
+	<prefab name="survivor_site_05" />
+	<prefab name="survivor_site_06" />
+	<prefab name="survivor_site_07" />
+	<prefab name="survivor_site_08" />
+	<prefab name="indian_burial_grounds_01" prob="0.05" />
+	<prefab name="oldwest_graveyard" />
+	<prefab name="cave_01" />
+	<prefab name="cave_02" />
+	<prefab name="cave_03" />
+	<prefab name="cave_04" />
+</prefab_rule>
+</set>
+</configs>

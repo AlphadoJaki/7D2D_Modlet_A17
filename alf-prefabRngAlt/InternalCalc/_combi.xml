@@ -1,0 +1,409 @@
+<!-- duplicate
+6x5   apartment_adobe_red_5_flr
+7x8   apartment_brick_6_flr
+3x4   bar_sm_01
+6x6   bar_stripclub_01
+6x6   bar_theater_01
+2x2   blueberryfield_sm
+3x6   business_old_01
+3x7   business_old_02
+4x7   business_old_03
+4x6   business_old_04
+4x5   business_old_05
+4x8   business_old_06
+3x7   business_old_07
+4x6   business_old_08
+6x6   business_strip_old_01
+7x6   business_strip_old_02
+8x5   business_strip_old_03
+5x5   business_strip_old_04
+6x6   cemetery_01
+6x6   cemetery_02
+6x6   church_01
+7x6   church_graveyard1
+4x7   church_sm_01
+7x7   cornfield_lg
+4x4   cornfield_med
+2x2   cornfield_sm
+4x5   diner_01
+6x6   diner_02
+6x6   diner_03
+6x6   fastfood_01
+6x8   fastfood_02
+6x8   fastfood_03
+5x7   fastfood_04
+6x6   fire_station_01
+5x6   fire_station_02
+5x6   funeral_home_01
+5x6   gas_station6
+16x14 hospital_01
+7x8   hotel_new_01
+6x6   hotel_ostrich
+6x6   hotel_roadside_01
+6x6   hotel_roadside_02
+4x4   mp_waste_bldg_01_red
+4x4   mp_waste_bldg_01_tan
+4x4   mp_waste_bldg_01_white
+4x5   mp_waste_bldg_02_red
+4x5   mp_waste_bldg_02_tan
+3x3   mp_waste_bldg_03_red
+3x3   mp_waste_bldg_03_tan
+3x3   mp_waste_bldg_03_white
+2x5   mp_waste_bldg_04_grey
+2x5   mp_waste_bldg_04_red
+2x5   mp_waste_bldg_04_tan
+2x5   mp_waste_bldg_04_white
+3x3   mp_waste_bldg_05_grey
+3x5   mp_waste_bldg_06_grey
+4x6   mp_waste_bldg_governer_08
+6x6   parking_garage_01
+5x5   parking_lot_01
+5x5   parking_lot_02
+5x5   parking_lot_03
+2x2   potatofield_sm
+13x10 school_01
+5x7   school_daycare_01
+7x10  school_k6_01
+5x5   settlement_01
+4x7   store_laundry_01
+5x6   store_pawn_01
+3x6   store_salon
+5x6   theater_01
+1x1   waste_rubble_bldg_01
+2x2   waste_rubble_bldg_02
+2x2   waste_rubble_bldg_03
+3x2   waste_rubble_bldg_04
+5x5   waste_rubble_bldg_05
+5x5   waste_rubble_bldg_06
+3x3   waste_rubble_bldg_07
+5x5   waste_rubble_bldg_08
+2x2   waste_rubble_bldg_09
+3x3   water_tower_03
+-->
+<!-- duplicate sorted
+1x1   waste_rubble_bldg_01
+2x2   blueberryfield_sm
+2x2   cornfield_sm
+2x2   potatofield_sm
+2x2   waste_rubble_bldg_02
+2x2   waste_rubble_bldg_03
+2x2   waste_rubble_bldg_09
+
+3x2   waste_rubble_bldg_04
+3x3   mp_waste_bldg_03_red
+3x3   mp_waste_bldg_03_tan
+3x3   mp_waste_bldg_03_white
+3x3   mp_waste_bldg_05_grey
+3x3   waste_rubble_bldg_07
+3x3   water_tower_03
+3x4   bar_sm_01
+4x4   cornfield_med
+4x4   mp_waste_bldg_01_red
+4x4   mp_waste_bldg_01_tan
+4x4   mp_waste_bldg_01_white
+
+2x5   mp_waste_bldg_04_grey
+2x5   mp_waste_bldg_04_red
+2x5   mp_waste_bldg_04_tan
+2x5   mp_waste_bldg_04_white
+3x5   mp_waste_bldg_06_grey
+3x6   business_old_01
+3x6   store_salon
+4x5   business_old_05
+4x5   diner_01
+4x5   mp_waste_bldg_02_red
+4x5   mp_waste_bldg_02_tan
+4x6   business_old_04
+4x6   business_old_08
+4x6   mp_waste_bldg_governer_08
+
+5x5   business_strip_old_04
+5x5   parking_lot_01
+5x5   parking_lot_02
+5x5   parking_lot_03
+5x5   settlement_01
+5x5   waste_rubble_bldg_05
+5x5   waste_rubble_bldg_06
+5x5   waste_rubble_bldg_08
+5x6   fire_station_02
+5x6   funeral_home_01
+5x6   gas_station6
+5x6   store_pawn_01
+5x6   theater_01
+6x5   apartment_adobe_red_5_flr
+6x6   bar_stripclub_01
+6x6   bar_theater_01
+6x6   business_strip_old_01
+6x6   cemetery_01
+6x6   cemetery_02
+6x6   church_01
+6x6   diner_02
+6x6   diner_03
+6x6   fastfood_01
+6x6   fire_station_01
+6x6   hotel_ostrich
+6x6   hotel_roadside_01
+6x6   hotel_roadside_02
+6x6   parking_garage_01
+
+3x7   business_old_02
+3x7   business_old_07
+4x7   business_old_03
+4x7   church_sm_01
+4x7   store_laundry_01
+4x8   business_old_06
+5x7   fastfood_04
+5x7   school_daycare_01
+6x8   fastfood_02
+6x8   fastfood_03
+7x6   business_strip_old_02
+7x6   church_graveyard1
+8x5   business_strip_old_03
+
+7x10  school_k6_01
+7x7   cornfield_lg
+7x8   apartment_brick_6_flr
+7x8   hotel_new_01
+13x10 school_01
+16x14 hospital_01
+-->
+<prefab_rule name="multiple">
+	<prefab name="waste_rubble_bldg_01"			prob="0.10" max_count="3"/>
+	<prefab name="blueberryfield_sm"			prob="0.10" max_count="2"/>
+	<prefab name="cornfield_sm"					prob="0.10" max_count="2"/>
+	<prefab name="potatofield_sm"				prob="0.10" max_count="2"/>
+	<prefab name="waste_rubble_bldg_02"			prob="0.10" max_count="3"/>
+	<prefab name="waste_rubble_bldg_03"			prob="0.10" max_count="3"/>
+	<prefab name="waste_rubble_bldg_09"			prob="0.10" max_count="3"/>
+
+	<prefab name="waste_rubble_bldg_04"			prob="0.20" max_count="3"/>
+	<prefab name="mp_waste_bldg_03_red"			prob="0.20" max_count="3"/>
+	<prefab name="mp_waste_bldg_03_tan"			prob="0.20" max_count="3"/>
+	<prefab name="mp_waste_bldg_03_white"		prob="0.20" max_count="3"/>
+	<prefab name="mp_waste_bldg_05_grey"		prob="0.20" max_count="3"/>
+	<prefab name="waste_rubble_bldg_07"			prob="0.20" max_count="3"/>
+	<prefab name="water_tower_03"				prob="0.20" max_count="4"/>
+	<prefab name="bar_sm_01"					prob="0.20" max_count="2"/>
+	<prefab name="cornfield_med"				prob="0.20" max_count="2"/>
+	<prefab name="mp_waste_bldg_01_red"			prob="0.20" max_count="3"/>
+	<prefab name="mp_waste_bldg_01_tan"			prob="0.20" max_count="3"/>
+	<prefab name="mp_waste_bldg_01_white"		prob="0.20" max_count="3"/>
+
+	<prefab name="mp_waste_bldg_04_grey"		prob="0.50" max_count="3"/>
+	<prefab name="mp_waste_bldg_04_red"			prob="0.50" max_count="3"/>
+	<prefab name="mp_waste_bldg_04_tan"			prob="0.50" max_count="3"/>
+	<prefab name="mp_waste_bldg_04_white"		prob="0.50" max_count="3"/>
+	<prefab name="mp_waste_bldg_06_grey"		prob="0.50" max_count="3"/>
+	<prefab name="business_old_01"				prob="0.50" max_count="3"/>
+	<prefab name="store_salon"					prob="0.50" max_count="2"/>
+	<prefab name="business_old_05"				prob="0.50" max_count="3"/>
+	<prefab name="diner_01"						prob="0.50" max_count="2"/>
+	<prefab name="mp_waste_bldg_02_red"			prob="0.50" max_count="3"/>
+	<prefab name="mp_waste_bldg_02_tan"			prob="0.50" max_count="3"/>
+	<prefab name="business_old_04"				prob="0.50" max_count="3"/>
+	<prefab name="business_old_08"				prob="0.50" max_count="3"/>
+	<prefab name="mp_waste_bldg_governer_08"	prob="0.50" max_count="2"/>
+
+	<prefab name="business_strip_old_04"		prob="1.00" max_count="2"/>
+	<prefab name="parking_lot_01"				prob="1.00" max_count="2"/>
+	<prefab name="parking_lot_02"				prob="1.00" max_count="2"/>
+	<prefab name="parking_lot_03"				prob="1.00" max_count="2"/>
+	<prefab name="settlement_01"				prob="1.00" max_count="2"/>
+	<prefab name="waste_rubble_bldg_05"			prob="1.00" max_count="2"/>
+	<prefab name="waste_rubble_bldg_06"			prob="1.00" max_count="2"/>
+	<prefab name="waste_rubble_bldg_08"			prob="1.00" max_count="2"/>
+	<prefab name="fire_station_02"				prob="1.00" max_count="4"/>
+	<prefab name="funeral_home_01"				prob="1.00" max_count="4"/>
+	<prefab name="gas_station6"					prob="1.00" max_count="2"/>
+	<prefab name="store_pawn_01"				prob="1.00" max_count="2"/>
+	<prefab name="theater_01"					prob="1.00" max_count="1"/>
+	<prefab name="apartment_adobe_red_5_flr"	prob="1.00" max_count="3"/>
+	<prefab name="bar_stripclub_01"				prob="1.00" max_count="2"/>
+	<prefab name="bar_theater_01"				prob="1.00" max_count="1"/>
+	<prefab name="business_strip_old_01"		prob="1.00" max_count="2"/>
+	<prefab name="cemetery_01"					prob="1.00" max_count="2"/>
+	<prefab name="cemetery_02"					prob="1.00" max_count="2"/>
+	<prefab name="church_01"					prob="1.00" max_count="4"/>
+	<prefab name="diner_02"						prob="1.00" max_count="2"/>
+	<prefab name="diner_03"						prob="1.00" max_count="2"/>
+	<prefab name="fastfood_01"					prob="1.00" max_count="2"/>
+	<prefab name="fire_station_01"				prob="1.00" max_count="1"/>
+	<prefab name="hotel_ostrich"				prob="1.00" max_count="2"/>
+	<prefab name="hotel_roadside_01"			prob="1.00" max_count="2"/>
+	<prefab name="hotel_roadside_02"			prob="1.00" max_count="2"/>
+	<prefab name="parking_garage_01"			prob="1.00" max_count="2"/>
+
+	<prefab name="business_old_02"				prob="10.0" max_count="1"/>
+	<prefab name="business_old_07"				prob="10.0" max_count="1"/>
+	<prefab name="business_old_03"				prob="10.0" max_count="1"/>
+	<prefab name="church_sm_01"					prob="10.0" max_count="4"/>
+	<prefab name="store_laundry_01"				prob="10.0" max_count="1"/>
+	<prefab name="business_old_06"				prob="10.0" max_count="1"/>
+	<prefab name="fastfood_04"					prob="10.0" max_count="1"/>
+	<prefab name="school_daycare_01"			prob="10.0" max_count="3"/>
+	<prefab name="fastfood_02"					prob="10.0" max_count="1"/>
+	<prefab name="fastfood_03"					prob="10.0" max_count="1"/>
+	<prefab name="business_strip_old_02"		prob="10.0" max_count="1"/>
+	<prefab name="church_graveyard1"			prob="10.0" max_count="1"/>
+	<prefab name="business_strip_old_03"		prob="10.0" max_count="1"/>
+
+	<prefab name="school_k6_01"					prob="100." max_count="3"/>
+	<prefab name="cornfield_lg"					prob="100." max_count="1"/>
+	<prefab name="apartment_brick_6_flr"		prob="100." max_count="3"/>
+	<prefab name="hotel_new_01"					prob="100." max_count="1"/>
+	<prefab name="school_01"					prob="100." max_count="3"/>
+	<prefab name="hospital_01"					prob="100." max_count="1"/>
+</prefab_rule>
+
+<!-- commercial & downtown
+3x4   bar_sm_01
+6x6   bar_stripclub_01
+6x6   bar_theater_01
+3x6   business_old_01
+3x7   business_old_02
+4x7   business_old_03
+4x6   business_old_04
+4x5   business_old_05
+4x8   business_old_06
+3x7   business_old_07
+4x6   business_old_08
+6x6   business_strip_old_01
+7x6   business_strip_old_02
+8x5   business_strip_old_03
+5x5   business_strip_old_04
+4x5   diner_01
+6x6   diner_02
+6x6   diner_03
+6x6   fastfood_01
+6x8   fastfood_02
+6x8   fastfood_03
+5x7   fastfood_04
+7x8   hotel_new_01
+6x6   hotel_ostrich
+6x6   hotel_roadside_01
+6x6   hotel_roadside_02
+4x4   mp_waste_bldg_01_red
+4x4   mp_waste_bldg_01_tan
+4x4   mp_waste_bldg_01_white
+4x5   mp_waste_bldg_02_red
+4x5   mp_waste_bldg_02_tan
+3x3   mp_waste_bldg_03_red
+3x3   mp_waste_bldg_03_tan
+3x3   mp_waste_bldg_03_white
+2x5   mp_waste_bldg_04_grey
+2x5   mp_waste_bldg_04_red
+2x5   mp_waste_bldg_04_tan
+2x5   mp_waste_bldg_04_white
+3x3   mp_waste_bldg_05_grey
+3x5   mp_waste_bldg_06_grey
+6x6   parking_garage_01
+5x5   parking_lot_01
+5x5   parking_lot_02
+5x5   parking_lot_03
+5x7   school_daycare_01
+7x10  school_k6_01
+4x7   store_laundry_01
+5x6   store_pawn_01
+3x6   store_salon
+5x6   theater_01
+1x1   waste_rubble_bldg_01
+2x2   waste_rubble_bldg_02
+2x2   waste_rubble_bldg_03
+3x2   waste_rubble_bldg_04
+5x5   waste_rubble_bldg_05
+5x5   waste_rubble_bldg_06
+3x3   waste_rubble_bldg_07
+5x5   waste_rubble_bldg_08
+2x2   waste_rubble_bldg_09
+-->
+<!-- commercial & industrial
+4x4   mp_waste_bldg_01_red
+4x4   mp_waste_bldg_01_tan
+4x4   mp_waste_bldg_01_white
+4x5   mp_waste_bldg_02_red
+4x5   mp_waste_bldg_02_tan
+3x3   mp_waste_bldg_03_red
+3x3   mp_waste_bldg_03_tan
+3x3   mp_waste_bldg_03_white
+2x5   mp_waste_bldg_04_grey
+2x5   mp_waste_bldg_04_red
+2x5   mp_waste_bldg_04_tan
+2x5   mp_waste_bldg_04_white
+3x3   mp_waste_bldg_05_grey
+3x5   mp_waste_bldg_06_grey
+5x5   settlement_01
+1x1   waste_rubble_bldg_01
+2x2   waste_rubble_bldg_02
+2x2   waste_rubble_bldg_03
+3x2   waste_rubble_bldg_04
+5x5   waste_rubble_bldg_05
+5x5   waste_rubble_bldg_06
+3x3   waste_rubble_bldg_07
+5x5   waste_rubble_bldg_08
+2x2   waste_rubble_bldg_09
+-->
+<!-- commercial & residentialNew
+4x7   church_sm_01
+5x6   funeral_home_01
+5x7   school_daycare_01
+7x10  school_k6_01
+-->
+<!-- commercial & residentialOld
+6x6   cemetery_01
+6x6   cemetery_02
+7x6   church_graveyard1
+5x6   gas_station6
+-->
+<!-- downtown & industrial
+4x4   mp_waste_bldg_01_red
+4x4   mp_waste_bldg_01_tan
+4x4   mp_waste_bldg_01_white
+4x5   mp_waste_bldg_02_red
+4x5   mp_waste_bldg_02_tan
+3x3   mp_waste_bldg_03_red
+3x3   mp_waste_bldg_03_tan
+3x3   mp_waste_bldg_03_white
+2x5   mp_waste_bldg_04_grey
+2x5   mp_waste_bldg_04_red
+2x5   mp_waste_bldg_04_tan
+2x5   mp_waste_bldg_04_white
+3x3   mp_waste_bldg_05_grey
+3x5   mp_waste_bldg_06_grey
+4x6   mp_waste_bldg_governer_08
+1x1   waste_rubble_bldg_01
+2x2   waste_rubble_bldg_02
+2x2   waste_rubble_bldg_03
+3x2   waste_rubble_bldg_04
+5x5   waste_rubble_bldg_05
+5x5   waste_rubble_bldg_06
+3x3   waste_rubble_bldg_07
+5x5   waste_rubble_bldg_08
+2x2   waste_rubble_bldg_09
+-->
+<!-- downtown & residentialNew
+6x5   apartment_adobe_red_5_flr
+7x8   apartment_brick_6_flr
+6x6   church_01
+5x6   fire_station_02
+16x14 hospital_01
+13x10 school_01
+5x7   school_daycare_01
+7x10  school_k6_01
+-->
+<!-- downtown & residentialOld
+6x6   fire_station_01
+-->
+<!-- industrial & residentialNew
+3x3   water_tower_03
+-->
+<!-- industrial & residentialOld
+2x2   blueberryfield_sm
+7x7   cornfield_lg
+4x4   cornfield_med
+2x2   cornfield_sm
+2x2   potatofield_sm
+3x3   water_tower_03
+-->
+<!-- residentialNew & residentialOld
+3x3   water_tower_03
+-->

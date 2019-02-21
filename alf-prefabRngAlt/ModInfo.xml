@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="Alf Alternative Prefab Randomizer" />
+		<Description value="Another prefab rule, which avoids POI duplication and bring back missing POI" />
+		<Author value="Alphado-Jaki" />
+		<Version value="0.0.0" />
+	</ModInfo>
+</xml>

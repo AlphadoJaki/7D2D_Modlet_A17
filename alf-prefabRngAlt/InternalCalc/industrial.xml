@@ -1,0 +1,167 @@
+<!-- ======== industrial ========
+6x6   army_barracks_01
+7x8   army_camp_01
+7x8   army_camp_02
+7x8   army_camp_03
+3x3   barn_01
+5x7   barn_02
+7x8   barn_03
+2x2   blueberryfield_sm
+7x7   cornfield_lg
+4x4   cornfield_med
+2x2   cornfield_sm
+6x6   factory_lg_01
+13x13 factory_lg_02
+6x6   installation_red_mesa
+10x11 junkyard_lg_01
+8x7   junkyard_med_01
+4x4   mp_waste_bldg_01_red
+4x4   mp_waste_bldg_01_tan
+4x4   mp_waste_bldg_01_white
+4x5   mp_waste_bldg_02_red
+4x5   mp_waste_bldg_02_tan
+3x3   mp_waste_bldg_03_red
+3x3   mp_waste_bldg_03_tan
+3x3   mp_waste_bldg_03_white
+2x5   mp_waste_bldg_04_grey
+2x5   mp_waste_bldg_04_red
+2x5   mp_waste_bldg_04_tan
+2x5   mp_waste_bldg_04_white
+3x3   mp_waste_bldg_05_grey
+3x5   mp_waste_bldg_06_grey
+4x6   mp_waste_bldg_governer_08
+4x4   oldwest_stables
+2x2   oldwest_watertower
+2x2   potatofield_sm
+10x13 sawmill_01_snow
+5x5   settlement_01
+4x4   utility_celltower_01
+5x4   utility_celltower_02
+6x6   utility_electric_co_01
+8x7   utility_refinery_01
+6x6   utility_waterworks_01
+3x4   vacant_lot_01
+3x4   vacant_lot_02
+3x4   vacant_lot_03
+3x4   vacant_lot_04
+3x6   vacant_lot_05
+4x7   warehouse_01
+1x1   waste_rubble_bldg_01
+2x2   waste_rubble_bldg_02
+2x2   waste_rubble_bldg_03
+3x2   waste_rubble_bldg_04
+5x5   waste_rubble_bldg_05
+5x5   waste_rubble_bldg_06
+3x3   waste_rubble_bldg_07
+5x5   waste_rubble_bldg_08
+2x2   waste_rubble_bldg_09
+3x2   waste_rubble_highway_01
+1x2   water_tower_01
+2x2   water_tower_02
+3x3   water_tower_03
+-->
+<!-- industrial only
+6x6   army_barracks_01
+7x8   army_camp_01
+7x8   army_camp_02
+7x8   army_camp_03
+3x3   barn_01
+5x7   barn_02
+7x8   barn_03
+6x6   factory_lg_01
+13x13 factory_lg_02
+6x6   installation_red_mesa
+10x11 junkyard_lg_01
+8x7   junkyard_med_01
+4x4   oldwest_stables
+2x2   oldwest_watertower
+10x13 sawmill_01_snow
+4x4   utility_celltower_01
+5x4   utility_celltower_02
+6x6   utility_electric_co_01
+8x7   utility_refinery_01
+6x6   utility_waterworks_01
+3x4   vacant_lot_01
+3x4   vacant_lot_02
+3x4   vacant_lot_03
+3x4   vacant_lot_04
+3x6   vacant_lot_05
+4x7   warehouse_01
+3x2   waste_rubble_highway_01
+1x2   water_tower_01
+2x2   water_tower_02
+-->
+<!-- industrial only sorted
+1x2   water_tower_01
+2x2   oldwest_watertower
+2x2   water_tower_02
+
+3x2   waste_rubble_highway_01
+3x3   barn_01
+3x4   vacant_lot_01
+3x4   vacant_lot_02
+3x4   vacant_lot_03
+3x4   vacant_lot_04
+4x4   oldwest_stables
+4x4   utility_celltower_01
+
+3x6   vacant_lot_05
+5x4   utility_celltower_02
+
+6x6   army_barracks_01
+6x6   factory_lg_01
+6x6   installation_red_mesa
+6x6   utility_electric_co_01
+6x6   utility_waterworks_01
+
+4x7   warehouse_01
+5x7   barn_02
+
+7x8   army_camp_01
+7x8   army_camp_02
+7x8   army_camp_03
+7x8   barn_03
+8x7   junkyard_med_01
+8x7   utility_refinery_01
+10x11 junkyard_lg_01
+
+10x13 sawmill_01_snow
+13x13 factory_lg_02
+-->
+<prefab_rule name="industrial">
+	<prefab name="water_tower_01"			prob="0.01" max_count="4"/>
+	<prefab name="oldwest_watertower"		prob="0.01" max_count="4"/>
+	<prefab name="water_tower_02"			prob="0.01" max_count="4"/>
+
+	<prefab name="waste_rubble_highway_01"	prob="0.05" max_count="2"/>
+	<prefab name="barn_01"					prob="0.05" max_count="3"/>
+	<prefab name="vacant_lot_01"			prob="0.05" max_count="1"/>
+	<prefab name="vacant_lot_02"			prob="0.05" max_count="1"/>
+	<prefab name="vacant_lot_03"			prob="0.05" max_count="1"/>
+	<prefab name="vacant_lot_04"			prob="0.05" max_count="1"/>
+	<prefab name="oldwest_stables"			prob="0.05" max_count="2"/>
+	<prefab name="utility_celltower_01"		prob="0.05" max_count="2"/>
+
+	<prefab name="vacant_lot_05"			prob="0.20" max_count="1"/>
+	<prefab name="utility_celltower_02"		prob="0.20" max_count="2"/>
+
+	<prefab name="army_barracks_01"			prob="1.00" max_count="1"/>
+	<prefab name="factory_lg_01"			prob="1.00" max_count="1"/>
+	<prefab name="installation_red_mesa"	prob="1.00" max_count="1"/>
+	<prefab name="utility_electric_co_01"	prob="1.00" max_count="1"/>
+	<prefab name="utility_waterworks_01"	prob="1.00" max_count="1"/>
+
+	<prefab name="warehouse_01"				prob="10.0" max_count="2"/>
+	<prefab name="barn_02"					prob="10.0" max_count="2"/>
+	
+	<prefab name="army_camp_01"				prob="100." max_count="1"/>
+	<prefab name="army_camp_02"				prob="100." max_count="1"/>
+	<prefab name="army_camp_03"				prob="100." max_count="1"/>
+	<prefab name="barn_03"					prob="100." max_count="2"/>
+	<prefab name="junkyard_med_01"			prob="100." max_count="2"/>
+	<prefab name="utility_refinery_01"		prob="100." max_count="1"/>
+	<prefab name="junkyard_lg_01"			prob="100." max_count="1"/>
+
+	<prefab name="sawmill_01_snow"			prob="1000" max_count="1"/>
+	<prefab name="factory_lg_02"			prob="1000" max_count="1"/>
+</prefab_rule>

@@ -1,0 +1,413 @@
+<!-- ======== residentialold ========
+7x7   abandoned_house_01
+4x4   abandoned_house_02
+3x4   abandoned_house_03
+4x4   abandoned_house_04
+4x4   abandoned_house_05
+4x4   abandoned_house_06
+5x4   abandoned_house_07
+4x5   abandoned_house_08
+2x2   blueberryfield_sm
+4x5   bombshelter_lg_01
+4x5   bombshelter_md_01
+4x5   cabin_01
+4x5   cabin_02
+5x5   cabin_03
+4x5   cabin_04
+5x6   cabin_05
+5x5   cabin_06
+6x6   cabin_07
+6x6   cabin_08
+4x5   cabin_09
+4x7   cabin_10
+5x6   cabin_11
+4x4   cabin_12
+4x5   cabin_13
+6x6   cabin_14
+6x7   cabin_15
+6x6   cemetery_01
+6x6   cemetery_02
+7x6   church_graveyard1
+7x7   cornfield_lg
+4x4   cornfield_med
+2x2   cornfield_sm
+6x6   fire_station_01
+2x5   garage_01
+2x5   garage_02
+2x5   garage_03
+3x5   garage_04
+5x6   gas_station6
+2x3   houseburnt1
+3x3   houseburnt2
+2x3   houseburnt3
+2x3   houseburnt3b
+2x2   houseburnt5
+4x6   house_old_bungalow_01
+4x6   house_old_bungalow_02
+4x6   house_old_bungalow_04
+4x6   house_old_bungalow_05
+4x7   house_old_bungalow_06
+4x7   house_old_bungalow_07
+4x7   house_old_bungalow_08
+4x6   house_old_bungalow_09
+4x6   house_old_bungalow_10
+5x6   house_old_bungalow_11
+3x6   house_old_bungalow_12
+5x7   house_old_gambrel_01
+5x6   house_old_gambrel_02
+7x11  house_old_gambrel_03
+6x7   house_old_mansard_01
+6x7   house_old_mansard_02
+5x7   house_old_mansard_03
+4x6   house_old_mansard_04
+4x6   house_old_mansard_05
+6x13  house_old_mansard_06
+4x6   house_old_modular_01
+4x6   house_old_modular_02
+4x6   house_old_modular_03
+4x6   house_old_modular_04
+4x6   house_old_modular_05
+4x6   house_old_modular_06
+4x6   house_old_modular_07
+4x6   house_old_modular_08
+5x7   house_old_pyramid_01
+5x7   house_old_pyramid_02
+4x6   house_old_pyramid_03
+5x7   house_old_pyramid_04
+5x6   house_old_pyramid_05
+6x6   house_old_ranch_01
+5x6   house_old_ranch_05
+5x7   house_old_ranch_06
+6x5   house_old_ranch_09
+6x6   house_old_ranch_10
+8x6   house_old_tudor_01
+5x6   house_old_tudor_02
+5x7   house_old_tudor_03
+4x6   house_old_tudor_04
+4x6   house_old_tudor_05
+5x7   house_old_tudor_06
+8x7   house_old_victorian_01
+5x7   house_old_victorian_02
+5x7   house_old_victorian_03
+5x7   house_old_victorian_04
+5x7   house_old_victorian_05
+4x7   house_old_victorian_06
+5x7   house_old_victorian_07
+4x6   house_old_victorian_08
+6x7   house_old_victorian_09
+5x6   house_old_victorian_10
+4x7   house_old_victorian_11
+4x6   house_old_victorian_12
+4x6   house_old_victorian_13
+2x2   potatofield_sm
+4x4   trailer_01
+4x4   trailer_02
+4x4   trailer_03
+4x4   trailer_04
+6x6   trailer_park_01
+3x3   water_tower_03
+-->
+<!-- residentialold only
+7x7   abandoned_house_01
+4x4   abandoned_house_02
+3x4   abandoned_house_03
+4x4   abandoned_house_04
+4x4   abandoned_house_05
+4x4   abandoned_house_06
+5x4   abandoned_house_07
+4x5   abandoned_house_08
+4x5   bombshelter_lg_01
+4x5   bombshelter_md_01
+4x5   cabin_01
+4x5   cabin_02
+5x5   cabin_03
+4x5   cabin_04
+5x6   cabin_05
+5x5   cabin_06
+6x6   cabin_07
+6x6   cabin_08
+4x5   cabin_09
+4x7   cabin_10
+5x6   cabin_11
+4x4   cabin_12
+4x5   cabin_13
+6x6   cabin_14
+6x7   cabin_15
+2x5   garage_01
+2x5   garage_02
+2x5   garage_03
+3x5   garage_04
+2x3   houseburnt1
+3x3   houseburnt2
+2x3   houseburnt3
+2x3   houseburnt3b
+2x2   houseburnt5
+4x6   house_old_bungalow_01
+4x6   house_old_bungalow_02
+4x6   house_old_bungalow_04
+4x6   house_old_bungalow_05
+4x7   house_old_bungalow_06
+4x7   house_old_bungalow_07
+4x7   house_old_bungalow_08
+4x6   house_old_bungalow_09
+4x6   house_old_bungalow_10
+5x6   house_old_bungalow_11
+3x6   house_old_bungalow_12
+5x7   house_old_gambrel_01
+5x6   house_old_gambrel_02
+7x11  house_old_gambrel_03
+6x7   house_old_mansard_01
+6x7   house_old_mansard_02
+5x7   house_old_mansard_03
+4x6   house_old_mansard_04
+4x6   house_old_mansard_05
+6x13  house_old_mansard_06
+4x6   house_old_modular_01
+4x6   house_old_modular_02
+4x6   house_old_modular_03
+4x6   house_old_modular_04
+4x6   house_old_modular_05
+4x6   house_old_modular_06
+4x6   house_old_modular_07
+4x6   house_old_modular_08
+5x7   house_old_pyramid_01
+5x7   house_old_pyramid_02
+4x6   house_old_pyramid_03
+5x7   house_old_pyramid_04
+5x6   house_old_pyramid_05
+6x6   house_old_ranch_01
+5x6   house_old_ranch_05
+5x7   house_old_ranch_06
+6x5   house_old_ranch_09
+6x6   house_old_ranch_10
+8x6   house_old_tudor_01
+5x6   house_old_tudor_02
+5x7   house_old_tudor_03
+4x6   house_old_tudor_04
+4x6   house_old_tudor_05
+5x7   house_old_tudor_06
+8x7   house_old_victorian_01
+5x7   house_old_victorian_02
+5x7   house_old_victorian_03
+5x7   house_old_victorian_04
+5x7   house_old_victorian_05
+4x7   house_old_victorian_06
+5x7   house_old_victorian_07
+4x6   house_old_victorian_08
+6x7   house_old_victorian_09
+5x6   house_old_victorian_10
+4x7   house_old_victorian_11
+4x6   house_old_victorian_12
+4x6   house_old_victorian_13
+4x4   trailer_01
+4x4   trailer_02
+4x4   trailer_03
+4x4   trailer_04
+6x6   trailer_park_01
+-->
+<!-- residentialold only sorted
+2x2   houseburnt5
+
+2x3   houseburnt1
+2x3   houseburnt3
+2x3   houseburnt3b
+3x3   houseburnt2
+3x4   abandoned_house_03
+4x4   abandoned_house_02
+4x4   abandoned_house_04
+4x4   abandoned_house_05
+4x4   abandoned_house_06
+4x4   cabin_12
+4x4   trailer_01
+4x4   trailer_02
+4x4   trailer_03
+4x4   trailer_04
+
+2x5   garage_01
+2x5   garage_02
+2x5   garage_03
+3x5   garage_04
+3x6   house_old_bungalow_12
+4x5   abandoned_house_08
+4x5   bombshelter_lg_01
+4x5   bombshelter_md_01
+4x5   cabin_01
+4x5   cabin_02
+4x5   cabin_04
+4x5   cabin_09
+4x5   cabin_13
+4x6   house_old_bungalow_01
+4x6   house_old_bungalow_02
+4x6   house_old_bungalow_04
+4x6   house_old_bungalow_05
+4x6   house_old_bungalow_09
+4x6   house_old_bungalow_10
+4x6   house_old_mansard_04
+4x6   house_old_mansard_05
+4x6   house_old_modular_01
+4x6   house_old_modular_02
+4x6   house_old_modular_03
+4x6   house_old_modular_04
+4x6   house_old_modular_05
+4x6   house_old_modular_06
+4x6   house_old_modular_07
+4x6   house_old_modular_08
+4x6   house_old_pyramid_03
+4x6   house_old_tudor_04
+4x6   house_old_tudor_05
+4x6   house_old_victorian_08
+4x6   house_old_victorian_12
+4x6   house_old_victorian_13
+5x4   abandoned_house_07
+
+5x5   cabin_03
+5x5   cabin_06
+5x6   cabin_05
+5x6   cabin_11
+5x6   house_old_bungalow_11
+5x6   house_old_gambrel_02
+5x6   house_old_pyramid_05
+5x6   house_old_ranch_05
+5x6   house_old_tudor_02
+5x6   house_old_victorian_10
+6x5   house_old_ranch_09
+6x6   cabin_07
+6x6   cabin_08
+6x6   cabin_14
+6x6   house_old_ranch_01
+6x6   house_old_ranch_10
+6x6   trailer_park_01
+
+4x7   cabin_10
+4x7   house_old_bungalow_06
+4x7   house_old_bungalow_07
+4x7   house_old_bungalow_08
+4x7   house_old_victorian_06
+4x7   house_old_victorian_11
+5x7   house_old_gambrel_01
+5x7   house_old_mansard_03
+5x7   house_old_pyramid_01
+5x7   house_old_pyramid_02
+5x7   house_old_pyramid_04
+5x7   house_old_ranch_06
+5x7   house_old_tudor_03
+5x7   house_old_tudor_06
+5x7   house_old_victorian_02
+5x7   house_old_victorian_03
+5x7   house_old_victorian_04
+5x7   house_old_victorian_05
+5x7   house_old_victorian_07
+6x7   cabin_15
+6x7   house_old_mansard_01
+6x7   house_old_mansard_02
+6x7   house_old_victorian_09
+6x13  house_old_mansard_06
+8x6   house_old_tudor_01
+
+7x7   abandoned_house_01
+7x11  house_old_gambrel_03
+8x7   house_old_victorian_01
+-->
+<prefab_rule name="residentialOld">
+	<prefab name="houseburnt5"				prob="0.01" max_count="4"/>
+
+	<prefab name="houseburnt1"				prob="0.05" max_count="3"/>
+	<prefab name="houseburnt3"				prob="0.05" max_count="2"/>
+	<prefab name="houseburnt3b"				prob="0.05" max_count="1"/>
+	<prefab name="houseburnt2"				prob="0.05" max_count="3"/>
+	<prefab name="abandoned_house_03"		prob="0.05" max_count="3"/>
+	<prefab name="abandoned_house_02"		prob="0.05" max_count="3"/>
+	<prefab name="abandoned_house_04"		prob="0.05" max_count="3"/>
+	<prefab name="abandoned_house_05"		prob="0.05" max_count="3"/>
+	<prefab name="abandoned_house_06"		prob="0.05" max_count="3"/>
+	<prefab name="cabin_12"					prob="0.05" max_count="3"/>
+	<prefab name="trailer_01"				prob="0.05" max_count="3"/>
+	<prefab name="trailer_02"				prob="0.05" max_count="3"/>
+	<prefab name="trailer_03"				prob="0.05" max_count="3"/>
+	<prefab name="trailer_04"				prob="0.05" max_count="3"/>
+
+	<prefab name="garage_01"				prob="0.20" max_count="3"/>
+	<prefab name="garage_02"				prob="0.20" max_count="3"/>
+	<prefab name="garage_03"				prob="0.20" max_count="3"/>
+	<prefab name="garage_04"				prob="0.20" max_count="3"/>
+	<prefab name="house_old_bungalow_12"	prob="0.20" max_count="2"/>
+	<prefab name="abandoned_house_08"		prob="0.20" max_count="2"/>
+	<prefab name="bombshelter_lg_01"		prob="0.20" max_count="1"/>
+	<prefab name="bombshelter_md_01"		prob="0.20" max_count="1"/>
+	<prefab name="cabin_01"					prob="0.20" max_count="2"/>
+	<prefab name="cabin_02"					prob="0.20" max_count="2"/>
+	<prefab name="cabin_04"					prob="0.20" max_count="2"/>
+	<prefab name="cabin_09"					prob="0.20" max_count="2"/>
+	<prefab name="cabin_13"					prob="0.20" max_count="2"/>
+	<prefab name="house_old_bungalow_01"	prob="0.20" max_count="2"/>
+	<prefab name="house_old_bungalow_02"	prob="0.20" max_count="2"/>
+	<prefab name="house_old_bungalow_04"	prob="0.20" max_count="2"/>
+	<prefab name="house_old_bungalow_05"	prob="0.20" max_count="2"/>
+	<prefab name="house_old_bungalow_09"	prob="0.20" max_count="2"/>
+	<prefab name="house_old_bungalow_10"	prob="0.20" max_count="2"/>
+	<prefab name="house_old_mansard_04"		prob="0.20" max_count="2"/>
+	<prefab name="house_old_mansard_05"		prob="0.20" max_count="2"/>
+	<prefab name="house_old_modular_01"		prob="0.20" max_count="2"/>
+	<prefab name="house_old_modular_02"		prob="0.20" max_count="2"/>
+	<prefab name="house_old_modular_03"		prob="0.20" max_count="2"/>
+	<prefab name="house_old_modular_04"		prob="0.20" max_count="2"/>
+	<prefab name="house_old_modular_05"		prob="0.20" max_count="2"/>
+	<prefab name="house_old_modular_06"		prob="0.20" max_count="2"/>
+	<prefab name="house_old_modular_07"		prob="0.20" max_count="2"/>
+	<prefab name="house_old_modular_08"		prob="0.20" max_count="2"/>
+	<prefab name="house_old_pyramid_03"		prob="0.20" max_count="2"/>
+	<prefab name="house_old_tudor_04"		prob="0.20" max_count="2"/>
+	<prefab name="house_old_tudor_05"		prob="0.20" max_count="2"/>
+	<prefab name="house_old_victorian_08"	prob="0.20" max_count="2"/>
+	<prefab name="house_old_victorian_12"	prob="0.20" max_count="2"/>
+	<prefab name="house_old_victorian_13"	prob="0.20" max_count="2"/>
+	<prefab name="abandoned_house_07"		prob="0.20" max_count="2"/>
+
+	<prefab name="cabin_03"					prob="1.00" max_count="2"/>
+	<prefab name="cabin_06"					prob="1.00" max_count="2"/>
+	<prefab name="cabin_05"					prob="1.00" max_count="2"/>
+	<prefab name="cabin_11"					prob="1.00" max_count="2"/>
+	<prefab name="house_old_bungalow_11"	prob="1.00" max_count="1"/>
+	<prefab name="house_old_gambrel_02"		prob="1.00" max_count="1"/>
+	<prefab name="house_old_pyramid_05"		prob="1.00" max_count="1"/>
+	<prefab name="house_old_ranch_05"		prob="1.00" max_count="1"/>
+	<prefab name="house_old_tudor_02"		prob="1.00" max_count="1"/>
+	<prefab name="house_old_victorian_10"	prob="1.00" max_count="1"/>
+	<prefab name="house_old_ranch_09"		prob="1.00" max_count="1"/>
+	<prefab name="cabin_07"					prob="1.00" max_count="1"/>
+	<prefab name="cabin_08"					prob="1.00" max_count="1"/>
+	<prefab name="cabin_14"					prob="1.00" max_count="1"/>
+	<prefab name="house_old_ranch_01"		prob="1.00" max_count="1"/>
+	<prefab name="house_old_ranch_10"		prob="1.00" max_count="1"/>
+	<prefab name="trailer_park_01"			prob="1.00" max_count="2"/>
+
+	<prefab name="cabin_10"					prob="10.0" max_count="2"/>
+	<prefab name="house_old_bungalow_06"	prob="10.0" max_count="1"/>
+	<prefab name="house_old_bungalow_07"	prob="10.0" max_count="1"/>
+	<prefab name="house_old_bungalow_08"	prob="10.0" max_count="1"/>
+	<prefab name="house_old_victorian_06"	prob="10.0" max_count="1"/>
+	<prefab name="house_old_victorian_11"	prob="10.0" max_count="1"/>
+	<prefab name="house_old_gambrel_01"		prob="10.0" max_count="1"/>
+	<prefab name="house_old_mansard_03"		prob="10.0" max_count="1"/>
+	<prefab name="house_old_pyramid_01"		prob="10.0" max_count="1"/>
+	<prefab name="house_old_pyramid_02"		prob="10.0" max_count="1"/>
+	<prefab name="house_old_pyramid_04"		prob="10.0" max_count="1"/>
+	<prefab name="house_old_ranch_06"		prob="10.0" max_count="1"/>
+	<prefab name="house_old_tudor_03"		prob="10.0" max_count="1"/>
+	<prefab name="house_old_tudor_06"		prob="10.0" max_count="1"/>
+	<prefab name="house_old_victorian_02"	prob="10.0" max_count="1"/>
+	<prefab name="house_old_victorian_03"	prob="10.0" max_count="1"/>
+	<prefab name="house_old_victorian_04"	prob="10.0" max_count="1"/>
+	<prefab name="house_old_victorian_05"	prob="10.0" max_count="1"/>
+	<prefab name="house_old_victorian_07"	prob="10.0" max_count="1"/>
+	<prefab name="cabin_15"					prob="10.0" max_count="2"/>
+	<prefab name="house_old_mansard_01"		prob="10.0" max_count="1"/>
+	<prefab name="house_old_mansard_02"		prob="10.0" max_count="1"/>
+	<prefab name="house_old_victorian_09"	prob="10.0" max_count="1"/>
+	<prefab name="house_old_mansard_06"		prob="10.0" max_count="1"/>
+	<prefab name="house_old_tudor_01"		prob="10.0" max_count="2"/>
+
+	<prefab name="abandoned_house_01"		prob="100." max_count="2"/>
+	<prefab name="house_old_gambrel_03"		prob="100." max_count="1"/>
+	<prefab name="house_old_victorian_01"	prob="100." max_count="1"/>
+</prefab_rule>

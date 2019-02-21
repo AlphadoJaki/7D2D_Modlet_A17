@@ -1,0 +1,232 @@
+<!-- ======== commercial ========
+3x4   bar_sm_01
+6x6   bar_stripclub_01
+6x6   bar_theater_01
+3x6   business_old_01
+3x7   business_old_02
+4x7   business_old_03
+4x6   business_old_04
+4x5   business_old_05
+4x8   business_old_06
+3x7   business_old_07
+4x6   business_old_08
+6x6   business_strip_old_01
+7x6   business_strip_old_02
+8x5   business_strip_old_03
+5x5   business_strip_old_04
+6x6   carlot_01
+6x6   carlot_02
+6x6   cemetery_01
+6x5   cemetery_02
+7x6   church_graveyard1
+4x7   church_sm_01
+4x5   diner_01
+6x6   diner_02
+6x6   diner_03
+6x6   fastfood_01
+6x8   fastfood_02
+6x8   fastfood_03
+5x7   fastfood_04
+6x6   funeral_home_01
+5x6   gas_station1
+5x6   gas_station2
+5x6   gas_station3
+5x6   gas_station4
+7x9   gas_station5
+5x6   gas_station6
+5x5   gas_station7
+4x7   gas_station8
+8x11  gas_station9
+7x8   hotel_new_01
+6x6   hotel_ostrich
+6x6   hotel_roadside_01
+6x6   hotel_roadside_02
+4x4   mp_waste_bldg_01_red
+4x4   mp_waste_bldg_01_tan
+4x4   mp_waste_bldg_01_white
+4x5   mp_waste_bldg_02_red
+4x5   mp_waste_bldg_02_tan
+3x3   mp_waste_bldg_03_red
+3x3   mp_waste_bldg_03_tan
+3x3   mp_waste_bldg_03_white
+2x5   mp_waste_bldg_04_grey
+2x5   mp_waste_bldg_04_red
+2x5   mp_waste_bldg_04_tan
+2x5   mp_waste_bldg_04_white
+3x3   mp_waste_bldg_05_grey
+3x5   mp_waste_bldg_06_grey
+5x4   mp_waste_sewer_hole_1
+2x3   oldwest_church
+2x3   oldwest_graveyard
+2x3   oldwest_hotel_01
+2x3   oldwest_hotel_02
+2x2   oldwest_jail
+2x2   oldwest_md_shop_01
+2x3   oldwest_md_shop_02
+2x2   oldwest_md_shop_03
+2x3   oldwest_md_shop_04
+1x2   oldwest_sm_shop_01
+1x2   oldwest_sm_shop_02
+1x2   oldwest_sm_shop_03
+6x6   parking_garage_01
+5x5   parking_lot_01
+5x5   parking_lot_02
+5x5   parking_lot_03
+3x3   ranger_station1
+5x7   school_daycare_01
+7x10  school_k6_01
+5x5   settlement_01
+6x6   skate_park_01
+5x4   snowy_ski_lodge
+8x6   store_autoparts_01
+6x6   store_bank_lg_01
+5x6   store_book_lg_01
+4x6   store_book_sm_01
+6x6   store_grocery_lg_01
+4x6   store_grocery_sm_01
+6x6   store_gun_lg_01
+4x6   store_gun_sm_01
+6x7   store_hardware_lg_01
+3x6   store_hardware_sm_01
+4x7   store_laundry_01
+5x6   store_pawn_01
+5x6   store_pharmacy_sm_01
+3x6   store_salon
+5x6   theater_01
+1x1   waste_rubble_bldg_01
+2x2   waste_rubble_bldg_02
+2x2   waste_rubble_bldg_03
+3x2   waste_rubble_bldg_04
+5x5   waste_rubble_bldg_05
+5x5   waste_rubble_bldg_06
+3x3   waste_rubble_bldg_07
+5x5   waste_rubble_bldg_08
+2x2   waste_rubble_bldg_09
+-->
+<!-- commercial only
+6x6   carlot_01
+6x6   carlot_02
+5x6   gas_station1
+5x6   gas_station2
+5x6   gas_station3
+5x6   gas_station4
+7x9   gas_station5
+5x5   gas_station7
+4x7   gas_station8
+8x11  gas_station9
+5x4   mp_waste_sewer_hole_1
+2x3   oldwest_church
+2x3   oldwest_graveyard
+2x3   oldwest_hotel_01
+2x3   oldwest_hotel_02
+2x2   oldwest_jail
+2x2   oldwest_md_shop_01
+2x3   oldwest_md_shop_02
+2x2   oldwest_md_shop_03
+2x3   oldwest_md_shop_04
+1x2   oldwest_sm_shop_01
+1x2   oldwest_sm_shop_02
+1x2   oldwest_sm_shop_03
+3x3   ranger_station1
+6x6   skate_park_01
+5x4   snowy_ski_lodge
+8x6   store_autoparts_01
+6x6   store_bank_lg_01
+5x6   store_book_lg_01
+4x6   store_book_sm_01
+6x6   store_grocery_lg_01
+4x6   store_grocery_sm_01
+6x6   store_gun_lg_01
+4x6   store_gun_sm_01
+6x7   store_hardware_lg_01
+3x6   store_hardware_sm_01
+5x6   store_pharmacy_sm_01
+-->
+<!-- commercial only sorted
+1x2   oldwest_sm_shop_01
+1x2   oldwest_sm_shop_02
+1x2   oldwest_sm_shop_03
+2x2   oldwest_jail
+2x2   oldwest_md_shop_01
+2x2   oldwest_md_shop_03
+
+3x3   ranger_station1
+2x3   oldwest_church
+2x3   oldwest_graveyard
+2x3   oldwest_hotel_01
+2x3   oldwest_hotel_02
+2x3   oldwest_md_shop_02
+2x3   oldwest_md_shop_04
+
+3x6   store_hardware_sm_01
+4x6   store_book_sm_01
+4x6   store_grocery_sm_01
+4x6   store_gun_sm_01
+5x4   mp_waste_sewer_hole_1
+5x4   snowy_ski_lodge
+
+5x5   gas_station7
+5x6   gas_station1
+5x6   gas_station2
+5x6   gas_station3
+5x6   gas_station4
+5x6   store_book_lg_01
+5x6   store_pharmacy_sm_01
+6x6   carlot_01
+6x6   carlot_02
+6x6   skate_park_01
+6x6   store_bank_lg_01
+6x6   store_grocery_lg_01
+6x6   store_gun_lg_01
+
+4x7   gas_station8
+6x7   store_hardware_lg_01
+8x6   store_autoparts_01
+
+7x9   gas_station5
+8x11  gas_station9
+-->
+<prefab_rule name="commercial">
+	<prefab name="oldwest_sm_shop_01"		prob="0.01" max_count="3"/>
+	<prefab name="oldwest_sm_shop_02"		prob="0.01" max_count="3"/>
+	<prefab name="oldwest_sm_shop_03"		prob="0.01" max_count="3"/>
+	<prefab name="oldwest_jail"				prob="0.01" max_count="3"/>
+	<prefab name="oldwest_md_shop_01"		prob="0.01" max_count="3"/>
+	<prefab name="oldwest_md_shop_03"		prob="0.01" max_count="3"/>
+
+	<prefab name="ranger_station1"			prob="0.05" max_count="2"/>
+	<prefab name="oldwest_church"			prob="0.05" max_count="2"/>
+	<prefab name="oldwest_graveyard"		prob="0.05" max_count="2"/>
+	<prefab name="oldwest_hotel_01"			prob="0.05" max_count="2"/>
+	<prefab name="oldwest_hotel_02"			prob="0.05" max_count="2"/>
+	<prefab name="oldwest_md_shop_02"		prob="0.05" max_count="2"/>
+	<prefab name="oldwest_md_shop_04"		prob="0.05" max_count="2"/>
+
+	<prefab name="store_hardware_sm_01"		prob="0.20" max_count="2"/>
+	<prefab name="store_book_sm_01"			prob="0.20" max_count="2"/>
+	<prefab name="store_grocery_sm_01"		prob="0.20" max_count="2"/>
+	<prefab name="store_gun_sm_01"			prob="0.20" max_count="2"/>
+	<prefab name="mp_waste_sewer_hole_1"	prob="0.20" max_count="2"/>
+	<prefab name="snowy_ski_lodge"			prob="0.20" max_count="1"/>
+
+	<prefab name="gas_station7"				prob="1.00" max_count="1"/>
+	<prefab name="gas_station1"				prob="1.00" max_count="1"/>
+	<prefab name="gas_station2"				prob="1.00" max_count="1"/>
+	<prefab name="gas_station3"				prob="1.00" max_count="1"/>
+	<prefab name="gas_station4"				prob="1.00" max_count="1"/>
+	<prefab name="store_book_lg_01"			prob="1.00" max_count="1"/>
+	<prefab name="store_pharmacy_sm_01"		prob="1.00" max_count="1"/>
+	<prefab name="carlot_01"				prob="1.00" max_count="1"/>
+	<prefab name="carlot_02"				prob="1.00" max_count="1"/>
+	<prefab name="skate_park_01"			prob="1.00" max_count="1"/>
+	<prefab name="store_bank_lg_01"			prob="1.00" max_count="1"/>
+	<prefab name="store_grocery_lg_01"		prob="1.00" max_count="1"/>
+	<prefab name="store_gun_lg_01"			prob="1.00" max_count="1"/>
+
+	<prefab name="gas_station8"				prob="10.0" max_count="2"/>
+	<prefab name="store_hardware_lg_01"		prob="10.0" max_count="2"/>
+	<prefab name="store_autoparts_01"		prob="10.0" max_count="2"/>
+
+	<prefab name="gas_station5"				prob="100." max_count="1"/>
+	<prefab name="gas_station9"				prob="100." max_count="1"/>
+</prefab_rule>

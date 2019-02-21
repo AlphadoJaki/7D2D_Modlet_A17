@@ -1,0 +1,115 @@
+<!-- ======== residentialnew ========
+6x5   apartment_adobe_red_5_flr
+7x8   apartment_brick_6_flr
+6x6   church_01
+4x7   church_sm_01
+5x6   fire_station_02
+20x18 football_stadium
+5x6   funeral_home_01
+3x5   garage_05
+3x5   garage_06
+3x5   garage_07
+16x14 hospital_01
+5x6   house_construction_01
+4x7   house_construction_02
+4x5   house_new_01
+4x7   house_new_02
+4x6   house_new_03
+7x10  house_new_04
+6x9   house_new_05
+5x9   house_new_06
+8x6   house_new_mansion_01
+6x5   house_new_mansion_02
+6x6   house_new_mansion_03
+5x7   house_old_bungalow_03
+9x7   house_old_ranch_02
+7x6   house_old_ranch_03
+6x6   house_old_ranch_04
+7x6   house_old_ranch_07
+7x7   house_old_ranch_08
+4x7   house_old_spanish_01
+13x10 school_01
+5x7   school_daycare_01
+7x10  school_k6_01
+3x3   water_tower_03
+-->
+<!-- residentialnew only
+20x18 football_stadium
+3x5   garage_05
+3x5   garage_06
+3x5   garage_07
+5x6   house_construction_01
+4x7   house_construction_02
+4x5   house_new_01
+4x7   house_new_02
+4x6   house_new_03
+7x10  house_new_04
+6x9   house_new_05
+5x9   house_new_06
+8x6   house_new_mansion_01
+6x5   house_new_mansion_02
+6x6   house_new_mansion_03
+5x7   house_old_bungalow_03
+9x7   house_old_ranch_02
+7x6   house_old_ranch_03
+6x6   house_old_ranch_04
+7x6   house_old_ranch_07
+7x7   house_old_ranch_08
+4x7   house_old_spanish_01
+-->
+<!-- residentialnew only sorted
+3x5   garage_05
+3x5   garage_06
+3x5   garage_07
+4x5   house_new_01
+4x6   house_new_03
+
+5x6   house_construction_01
+6x5   house_new_mansion_02
+6x6   house_new_mansion_03
+6x6   house_old_ranch_04
+
+4x7   house_construction_02
+4x7   house_new_02
+4x7   house_old_spanish_01
+5x7   house_old_bungalow_03
+5x9   house_new_06
+6x9   house_new_05
+7x6   house_old_ranch_03
+7x6   house_old_ranch_07
+8x6   house_new_mansion_01
+
+7x7   house_old_ranch_08
+7x10  house_new_04
+9x7   house_old_ranch_02
+
+20x18 football_stadium
+-->
+<prefab_rule name="residentialNew">
+	<prefab name="garage_05"				prob="0.20" max_count="4"/>
+	<prefab name="garage_06"				prob="0.20" max_count="4"/>
+	<prefab name="garage_07"				prob="0.20" max_count="4"/>
+	<prefab name="house_new_01"				prob="0.20" max_count="4"/>
+	<prefab name="house_new_03"				prob="0.20" max_count="4"/>
+
+	<prefab name="house_construction_01"	prob="1.00" max_count="3"/>
+	<prefab name="house_new_mansion_02"		prob="1.00" max_count="3"/>
+	<prefab name="house_new_mansion_03"		prob="1.00" max_count="3"/>
+	<prefab name="house_old_ranch_04"		prob="1.00" max_count="3"/>
+
+	<prefab name="house_construction_02"	prob="10.0" max_count="2"/>
+	<prefab name="house_new_02"				prob="10.0" max_count="2"/>
+	<prefab name="house_old_spanish_01"		prob="10.0" max_count="2"/>
+	<prefab name="house_old_bungalow_03"	prob="10.0" max_count="2"/>
+	<prefab name="house_new_06"				prob="10.0" max_count="2"/>
+	<prefab name="house_new_05"				prob="10.0" max_count="2"/>
+	<prefab name="house_old_ranch_03"		prob="10.0" max_count="2"/>
+	<prefab name="house_old_ranch_07"		prob="10.0" max_count="2"/>
+	<prefab name="house_new_mansion_01"		prob="10.0" max_count="2"/>
+
+	<prefab name="house_old_ranch_08"		prob="100." max_count="1"/>
+	<prefab name="house_new_04"				prob="100." max_count="1"/>
+	<prefab name="house_old_ranch_02"		prob="100." max_count="1"/>
+
+	<prefab name="football_stadium"			prob="1000" max_count="1"/>
+</prefab_rule>
