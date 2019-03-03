@@ -6,8 +6,8 @@
 	<prefab rule="industrial" />
 	<prefab rule="residentialNew" />
 	<prefab rule="residentialOld" />
-	<prefab rule="multiple" prop="0.1" />
-	<prefab rule="multipleLandmark" prop="0.5" />
+	<prefab rule="multiple" prob="0.1" />
+	<prefab rule="multipleLandmark" prob="0.5" />
 </prefab_rule>
 
 <prefab_rule name="commercial">
